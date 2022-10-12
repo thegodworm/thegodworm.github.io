@@ -64,10 +64,13 @@
 		<section>
 			<h2> Write me a message </h2>
 			<form>
-				<input placeholder="Name"/><br>
-				<input placeholder="Email"/><br>
-				<textarea placeholder="Message" required></textarea><br>
-				<input type="submit" value="SEND"/>
+				<label for="email">Your email address </label>
+				<input type="text" name="email" autofocus placeholder="email@example.com"/>
+				<br/>
+				<label for="message">Your message here</label>
+				<input type="text" width="300px" height="400px" name="message" autofocus />
+				<input type="submit" value="Submit"/>
+
 			</form>
 		</section>
 	</body>
