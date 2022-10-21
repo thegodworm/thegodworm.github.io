@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #ffc0cb;
 }
@@ -6,17 +10,25 @@ body{
     text-align: center;
 }
 
-#lightdot{
-    border: green 3px dotted;
-
+.lettrine{
+    font-size: 3em;
 }
 
-#dotted{
-    border: 5px darkblue dashed ;
-    width: 30vw;
+.automargin{
     margin: auto;
 }
 
-.lettrine{
-    font-size: 3em;
+#lightdot{
+    border: green 3px dotted;
+    width: 30vw;
+}
+
+#dashed{
+    border: 5px darkblue dashed ;
+    width: 30vw;
+}
+
+
+#table {
+    border: 4px solid white;
 }
