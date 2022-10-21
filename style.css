@@ -1,0 +1,22 @@
+body{
+    background-color: #ffc0cb;
+}
+
+.centered{
+    text-align: center;
+}
+
+#lightdot{
+    border: green 3px dotted;
+
+}
+
+#dotted{
+    border: 5px darkblue dashed ;
+    width: 30vw;
+    margin: auto;
+}
+
+.lettrine{
+    font-size: 3em;
+}
