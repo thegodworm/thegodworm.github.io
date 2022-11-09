@@ -11,7 +11,8 @@ window.onload = function() {
     //our box element
     var box = document.getElementById('box');
     var t = setInterval(moveLoop, 10);
-  
+    var button = document.getElementById('bt');
+    
     function moveLoop(){
         while(pos <= 150){
             pos += 1 ;
@@ -20,7 +21,6 @@ window.onload = function() {
             if( pos >= 150);
             break;
         }
-      
+        
     }
-
 };
