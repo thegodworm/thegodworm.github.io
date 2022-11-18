@@ -54,3 +54,16 @@
     height: 20vh;
     width: 1vh;
 }
+#stickbuggif{
+position: absolute;
+top: 125px;
+right: 120px;
+}
+#dogdoinggif{
+position: absolute;
+}
+#catgif{
+    position: absolute;
+    top: -70px;
+    right:100px
+}
